@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(45deg, #372d99, #209467);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: ivory;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw; }
+  
+.form1 {
+        background-color: ivory;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        margin: auto;
+        width: 30%;
+        box-shadow: 0 0 25px #000;
+        text-align: center;
+     }
+
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+          
+          .box select {
+            background-color: #0563af;
+            color: white;
+            padding: 12px;
+            width: 250px;
+            border: none;
+            font-size: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+            -webkit-appearance: button;
+            appearance: button;
+            outline: none;
+          }
+          
+          .box::before {
+            content: "\f13a";
+            font-family: FontAwesome;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            font-size: 28px;
+            line-height: 45px;
+            color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(255, 255, 255, 0.1);
+            pointer-events: none;
+          }
+          
+          .box:hover::before {
+            color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.2);
+          }
+          
+          .box select option {
+            padding: 30px;
+          }
+
+     textarea {
+            width: 70%;
+            min-height: 100px;
+            resize: none;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            color: #666;
+            box-shadow: inset 0 0 0.25rem #ddd;
+            font-family: inherit;
+          }
+          textarea:focus {
+            outline: none;
+            border: 1px solid #d0d0d0;
+            box-shadow: inset 0 0 0.5rem #d0d0d0;
+          }
+          textarea[placeholder] {
+            font-style: italic;
+            font-size: 0.875rem;
+          }
+
+          .but1{
+            text-align: center;
+            display: inline-block;
+            padding: 10px;
+            font-size:1.15em;
+            background:linear-gradient(to left, mediumseagreen, cornflowerblue);
+            text-decoration: none;
+            color:white;
+            border:none;
+          
+            width:49%;
+          
+          
+          }
+          .but1:hover{
+            opacity: 70%;
+          }
+          .but1:active{
+            transform: translateY(4px);
+          }

@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(45deg, #372d99, #209467);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: ivory;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw; }
+  
+.form1 {
+        background-color: ivory;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        margin: auto;
+        width: 75%;
+        box-shadow: 0 0 25px #000;
+        text-align: center;
+        height: 750px
+        
+        ;
+     }
+     .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #beds {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 85%;
+        overflow-x:auto;
+        margin: auto;
+        text-align: center;
+
+      }
+      #beds td, #beds th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      .but1:hover{
+        opacity: 70%;
+      }
+      .but1:active{
+        transform: translateY(4px);
+      }
+      .but1{
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        font-size:1.15em;
+        background:linear-gradient(to left, mediumseagreen, cornflowerblue);
+        text-decoration: none;
+        color:white;
+        border:none;
+      
+        width:20%;
+      
+      
+      }
+      
+
+      

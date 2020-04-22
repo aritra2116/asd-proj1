@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Images//favicon-16x16.png">
+    <link rel ="stylesheet" type = "text/css" href="/CSS/beds.css">
+   
+    <title>Select your Hospital</title>
+</head>
+<body>
+    <p style="text-align: center;"><img src="Images/5e4be2e3-9088-43e7-850b-bfd85334da82.jpg" alt="MedLogo" style="width: 300px; margin: auto; text-align: center; box-shadow: 0 0 25px #000;"/></p>  
+    <div style="position: relative; top: 20vw;">
+        <form class="form1 box">
+            <p><h2>Select Available Hospital based on chosen location</h2></p>
+            <p><h3>Location Details :</h3></p>   
+        <label for="state">Chosen state : </label>
+        
+        <select id="state" disabled>
+          <option value="state">Haryana</option>
+        </select>
+            <label for="district">Chosen district : </label>
+        <select id="district" disabled>
+            <option value="District">Faridabad</option>
+        </select>
+        <label for="pincode">Entered Pincode : </label>
+        <select id="pincode" disabled>
+            <option value="pincode" name="pincode">121003</option>
+        </select><br>
+        <p style="float: left !important;"><h4>Hospitals near you. Please select one off of the list.</h4></p>
+        <br>
+        <table id="beds">
+            <thead>
+                <tr>
+                    <th>S. No</th>
+                    <th>Hospital Name</th>
+                    <th>Distance (in Km)</th>
+                    <th>Time (in Min)</th>
+                    <th>No. of Beds Available</th>
+                    <th>Selection</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Asian Institute of Medical Sciences</td>
+                    <td>4.7</td>
+                    <td>12 Min</td>
+                    <td>100</td>
+                    <td>
+                        <label class="container1">
+                        <input type="radio" id="1" name="select" value="1">
+                        <span class="checkmark1"></span>
+                        </label>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Sarvodaya Hospital</td>
+                    <td>6.6</td>
+                    <td>14 Min</td>
+                    <td>50</td>
+                    <td>
+                        <label class="container1">
+                        <input type="radio" id="2" name="select" value="2">
+                        <span class="checkmark1"></span>
+                        </label>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Shri Balaji Hospital & Heart Center</td>
+                    <td>6.9</td>
+                    <td>16 Min</td>
+                    <td>35</td>
+                    <td>
+                        <label class="container1">
+                        <input type="radio" id="3" name="select" value="3">
+                        <span class="checkmark1"></span>
+                        </label>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Metro Heart Institute with Multispeciality</td>
+                    <td>9.5</td>
+                    <td>17 Min</td>
+                    <td>75</td>
+                    <td>
+                        <label class="container1">
+                        <input type="radio" id="4" name="select" value="4">
+                        <span class="checkmark1"></span>
+                        </label>    
+                    </td>
+                </tr>
+        </table>
+        <br>
+        <button type="submit" class="but1">Select</button>
+        <p><h5>"Life is, at times tough. And all we need to do is to prove that we are tougher."</h5></p>
+        <p>Remain calm, and stay strong!</p>
+        </form>
+    </div>
+</body>
+</html>
